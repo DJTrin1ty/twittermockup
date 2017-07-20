@@ -42,10 +42,7 @@ GEM
     arel (7.1.4)
     autoprefixer-rails (7.1.2.3)
       execjs
-<<<<<<< HEAD
-=======
-    bcrypt (3.1.11)
->>>>>>> modeling-users
+    bcrypt (3.1.11-x86-mingw32)
     bindex (0.5.0)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -206,10 +203,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-<<<<<<< HEAD
-=======
   bcrypt (= 3.1.11)
->>>>>>> modeling-users
   bootstrap-sass (= 3.3.7)
   byebug (= 9.0.6)
   coffee-rails (= 4.2.2)
@@ -233,8 +227,4 @@ DEPENDENCIES
   web-console (= 3.5.1)
 
 BUNDLED WITH
-<<<<<<< HEAD
-   1.15.1
-=======
    1.15.2
->>>>>>> modeling-users

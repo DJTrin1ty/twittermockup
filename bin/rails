@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#!/usr/bin/env ruby.exe
-=======
 #!/usr/bin/env ruby
->>>>>>> modeling-users
 APP_PATH = File.expand_path('../config/application', __dir__)
 require_relative '../config/boot'
 require 'rails/commands'
