@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#!/usr/bin/env ruby.exe
-=======
 #!/usr/bin/env ruby
->>>>>>> modeling-users
 require_relative '../config/boot'
 require 'rake'
 Rake.application.run
