@@ -5,12 +5,12 @@ class UsersController < ApplicationController
 
 
   def index
-    @users = User.where(activated: FILL_IN).paginate(page: params[:page])
+    @users = User.where(activated: true).paginate(page: params[:page])
   end
   
   def show
     @user = User.find(params[:id])
-    redirect_to root_url and return unless FILL_IN
+    redirect_to root_url and return unless true
   end
 
   def new
@@ -40,12 +40,12 @@ class UsersController < ApplicationController
     else
       render 'edit'
     end
+  end
 
-    def destroy
-      User.find(params[:id]).destroy
-      flash[:success] = "User deleted"
-      redirect_to users_url
-    end
+  def destroy
+    User.find(params[:id]).destroy
+    flash[:success] = "User deleted"
+    redirect_to users_url
   end
 
   private
